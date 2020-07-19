@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let</title>
+</head>
+<body>
+    <script>
+        //声明变量
+        let a
+        let b,c,d
+        let e = 100
+        let f = 521,g = 'iloveyou',h = []
+
+        //1.变量不能重复声明
+        // let star = '多人运动'
+        // let star = '罗志祥'
+
+        //2.快级作用域  全局,函数,eval 
+        // if else while for 
+        // {
+        //     let gitr = '蝴蝶姐姐'
+        // }
+        
+        // console.log(gitr)
+
+        // //不存在变量提升
+        // console.log(song)
+        // let song = '时间管理大师'
+
+        //不影响作用域链
+        {
+            let school = '薛巍'
+            function fn (){
+                console.log(school)
+            }
+
+            fn()
+        }
+        
+
+
+    </script>
+    
+</body>
+</html>
