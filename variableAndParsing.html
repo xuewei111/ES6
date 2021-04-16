@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variableAndParsing</title>
+</head>
+<body>
+    <script>
+
+        // //以前的写法
+        // let a = 1
+        // let b = 2
+        // let c = 3
+
+        // //ES6的赋值写法 写法属于"模式匹配“
+        // let [a,b,c] = [1,2,3]
+
+
+        // let [foo,[[bar],baz]] = [1,[[2],3]]
+
+        // console.log("foo:"+foo+" bar:"+bar+" baz:"+baz)
+
+        let [,,third] = ['foo','bar','baz']
+
+        console.log(third)
+    </script>
+</body>
+</html>
